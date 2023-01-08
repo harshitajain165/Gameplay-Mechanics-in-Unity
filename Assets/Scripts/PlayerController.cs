@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
         powerupIndicator.transform.position = transform.position + new Vector3(0,-0.5f,0);
     }
 
+
     private void OnTriggerEnter(Collider other)  //OnTriggerEnter is useful when working with colliders
     {
         if(other.CompareTag("Powerup"))
